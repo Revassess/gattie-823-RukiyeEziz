@@ -6,13 +6,16 @@ public class SumOverArray {
 		
 		int sum = 0;
 		
+
 		if(arr != null) {
 			for(int i = 0; i < arr.length; i++) {
 				sum += arr[i];
 			}
 			return sum;
 		}
-		return 0;		
+		else {
+			return 0;
+		}
 
 	}
 	

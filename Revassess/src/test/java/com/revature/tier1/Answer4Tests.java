@@ -22,5 +22,6 @@ public class Answer4Tests {
 		assertTrue(NumberSumLength.checkNumberPowerLength(153));
 		assertFalse(NumberSumLength.checkNumberPowerLength(1635));
         addPoints(40);
-    }
+        
+   }
 }
